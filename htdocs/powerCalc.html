@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Thaumaturgy | Magical Power and Accessory Powers</title>
+			
+			<meta charset="UTF-8">
+			<meta name="author" content="Joseph Medard S. Ong" />
+			<meta name="description" content="" />
+			<meta name="keywords" content="HTML, CSS, JavaScript" />
+			<meta name="revised" content="" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			
+			<link rel="stylesheet" type="text/css" href="..\css\sheet.css" />
+		</head>
+		<body onload="loadDetails()">
+			<h2>Magical Power and Accessory Powers</h2>
+			
+			<form action="results.html" method="post" onsubmit="return submitDetails()">
+				<!-- displays the magical power and multiplier based on the input in the previous webpage -->
+				<fieldset>
+					<label for="magicalPower">Magical Power:</label>
+					<p id="magicalPower"></p>
+					
+					<label for="multiplier">Multiplier:</label>
+					<p id="multiplier"></p>
+				</fieldset>
+				
+				<!-- asks the user to choose a power -->
+				<fieldset>
+					<p>Choose a Power:</p>
+					
+					<input type="radio" id="scorching" name="chosenPower">
+					<label for="scorching">Scorching</label> <br>
+					
+					<input type="radio" id="healthy" name="chosenPower">
+					<label for="healthy">Healthy</label> <br>
+					
+					<input type="radio" id="slender" name="chosenPower">
+					<label for="slender">Slender</label> <br>
+					
+					<input type="radio" id="strong" name="chosenPower">
+					<label for="strong">Strong</label> <br>
+					
+					<input type="radio" id="bizarre" name="chosenPower">
+					<label for="bizarre">Bizarre</label> <br>
+					
+					<input type="radio" id="demonic" name="chosenPower">
+					<label for="demonic">Demonic</label> <br>
+					
+					<input type="radio" id="hurtful" name="chosenPower">
+					<label for="hurtful">Hurtful</label> <br>
+					
+					<input type="radio" id="pleasant" name="chosenPower">
+					<label for="pleasant">Pleasant</label> <br>
+					
+					<input type="radio" id="adept" name="chosenPower">
+					<label for="adept">Adept</label> <br>
+					
+					<input type="radio" id="bloody" name="chosenPower">
+					<label for="bloody">Bloody</label> <br>
+					
+					<input type="radio" id="forceful" name="chosenPower">
+					<label for="forceful">Forceful</label> <br>
+					
+					<input type="radio" id="itchy" name="chosenPower">
+					<label for="itchy">Itchy</label> <br>
+					
+					<input type="radio" id="mythical" name="chosenPower">
+					<label for="mythical">Mythical</label> <br>
+					
+					<input type="radio" id="shaded" name="chosenPower">
+					<label for="shaded">Shaded</label> <br>
+					
+					<input type="radio" id="sighted" name="chosenPower">
+					<label for="sighted">Sighted</label> <br>
+					
+					<input type="radio" id="silky" name="chosenPower">
+					<label for="silky">Silky</label> <br>
+					
+					<input type="radio" id="sweet" name="chosenPower">
+					<label for="sweet">Sweet</label> <br><br>
+					
+					<input type="submit" action="results.html" value="Go to Results">
+					<input type="reset">
+				</fieldset>
+			</form>
+			
+			<!-- link back to previous page -->
+			<a href="accessoriesInfo.html">Accessories Info</a>
+			
+			<script src="..\scripts\powerCalcScript.js"></script>
+		</body>
+	</html>
